@@ -1,3 +1,33 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://johnjanes.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'John Janes'
+theme = "hugo-theme-m10c"
+
+
+
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/posts/"
+
+[[menu.main]]
+  identifier = "resume"
+  name       = "Résumé"
+  url        = "/resume/"
+
+
+[params]
+author      = "John Janes"
+description = "Senior Software Engineer – Many Ninja Custom Software Solutions"
+avatar      = "jj-geek.jpg"      # put avatar.jpg in /static
+favicon     = "/favicon.ico"
+
+[[params.social]]
+  icon = "brand-github"
+  name = "GitHub"
+  url  = "https://github.com/jjanes"
+
+[[params.social]]
+  icon = "brand-linkedin"
+  name = "LinkedIn"
+  url  = "https://linkedin.com/in/johnrjanes"
